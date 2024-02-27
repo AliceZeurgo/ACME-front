@@ -1,0 +1,24 @@
+body{
+    margin: 0px;
+ background-color: #414141;
+ overflow: hidden;
+
+}
+
+.barraSuperior{
+    height: 60px;
+    width: max-content;
+    background-color: #626262;
+    z-index: 2;
+}
+
+.logo{
+    width: 10%;
+    height: 10%;
+}
+
+.texto1{
+    display: flex;
+    align-items: center;
+    transform: translate(30%);
+}
