@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #414141;
+    overflow: hidden;
+    justify-content: center;
+
+}
+
+.barraSuperior{
+    height: 60px;
+    width: max-content;
+    background-color: #626262;
+    z-index: 2;
+}
+
+.logo{
+    width: 10%;
+    height: 10%;
+}
+
+.caixaDeTextoSup{
+    display: flex;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    gap: 25%;
+    margin-top: -45px;
+    transform: translate(300px);
+}
+.barra-de-pesquisa{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    top: 270px;
+    width: 700px;
+    height: 40px;
+    border-radius: 10px;
+    position: absolute;
+    transform: translate(50%, 50%);
+    z-index: 2;
+    right: 645px;
+}
+/*REMOVE A BORDA AO REDOR DO TEXTO*/
+input[type="text"] {
+    border: none;
+    margin: 0; 
+    padding: 0; 
+    outline: none;
+    height: 20px;
+    width: 100cm;
+    transform: translate(15%);
+
+}
+
+.lupa{
+    margin: 2%;
+    width: 10px;
+    height: 25px;
+}
+
+.imgPerfil{
+    transform: translate(86%);
+}
